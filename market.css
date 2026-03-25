@@ -1,0 +1,88 @@
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #2a4478;
+        }
+
+        header {
+            background-color: #2a4478;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        header h1 {
+            background-color: whitesmoke;
+            display: inline-flex;
+            border-radius: 10px;
+            padding: 0 25px;
+            margin-top: 5px;
+        }
+
+        header .market_icont button {
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: aliceblue;
+        }
+
+        header .market_icont button input {
+            font-size: large;
+            border: none;
+            background-color: aliceblue;
+            border: #2a4478 solid;
+            border-radius: 10px;
+            text-align: center;
+            direction: rtl;
+
+
+
+        }
+
+        header i {
+            font-size: x-large;
+            padding: 0 5px;
+            background-color: aliceblue;
+        }
+
+        .br_sallnt {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+
+
+
+        .btn_f2 img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .btn_f2 {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            gap: 10px;
+        }
+
+        .btn_f2 span {
+            padding: 4px 2rem;
+            border-radius: 10px;
+            background-color: aliceblue;
+        }
+
+        .btn_f2 button {
+            background-color: red;
+            padding: 5px 2rem;
+            border-radius: 10px;
+            color: wheat;
+            font-size: large;
+            border: none;
+        }

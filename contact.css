@@ -1,0 +1,126 @@
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #e0eceb;
+            /* اللون المائل للأخضر الفاتح في الخلفية */
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+
+        .contact-page-container {
+            padding: 50px 20px;
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-header h1 {
+            font-size: 2.2rem;
+            color: #333;
+        }
+
+        .contact-header p {
+            color: #666;
+        }
+
+        /* تصميم الكرت الأبيض */
+        .contact-card {
+            background-color: #fff;
+            max-width: 900px;
+            margin: 0 auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            padding: 40px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* تقسيم الصفحة لنصفين */
+            gap: 40px;
+            align-items: center;
+        }
+
+        /* تنسيق الحقول */
+        .input-group {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .input-group input,
+        .input-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            font-family: inherit;
+        }
+
+        /* زر الإرسال */
+        .submit-btn {
+            width: 100%;
+            background-color: #005f54;
+            /* اللون الأخضر الغامق */
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #004d43;
+        }
+
+        /* الجانب النصي */
+        .text-side h2 {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .en-sub {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        .direct-contact p {
+            margin: 5px 0;
+            color: #555;
+            font-weight: bold;
+        }
+
+        /* التذييل */
+        .footer-info {
+            text-align: center;
+            margin-top: 50px;
+            color: #555;
+        }
+
+        /* جعل التصميم متوافق مع الجوال */
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .text-side {
+                order: -1;
+                /* رفع النص للأعلى في الجوال */
+                text-align: center;
+            }
+        }

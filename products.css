@@ -1,0 +1,107 @@
+        /* إعدادات عامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main-header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.main-header p {
+    color: #888;
+}
+
+/* شبكة المنتجات */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* كرت المنتج */
+.product-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.img-container img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.en-name {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #bfa07a; /* اللون الذهبي من الصورة */
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+/* الأزرار */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-to-cart {
+    background-color: #d4a373; /* لون الصورة */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.whatsapp-btn {
+    background-color: #005f54; /* لون الواتساب الغامق */
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+    background-color: #004d43;
+}
+

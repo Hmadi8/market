@@ -26,29 +26,34 @@
 
                 <div class="card-grid">
                     <div class="form-side">
-                        <form  action="https://formsubmit.co/mhmad090609@gmail.com" method="POST">
-                            <div class="input-group">
-                                <label>الاسم الكامل</label>
-                                <input type="text" placeholder="Full Name">
-                            </div>
+                <form action="https://formsubmit.co/mhmad090609@gmail.com" method="POST">
+    <div class="input-group">
+        <label>الاسم الكامل</label>
+        <!-- أضفنا name="name" -->
+        <input type="text" name="name" placeholder="Full Name" required>
+    </div>
 
-                            <div class="input-group">
-                                <label>رقم الهاتف / الواتساب</label>
-                                <input type="tel" placeholder="WhatsApp Number">
-                            </div>
+    <div class="input-group">
+        <label>رقم الهاتف / الواتساب</label>
+        <!-- أضفنا name="phone" -->
+        <input type="tel" name="phone" placeholder="WhatsApp Number" required>
+    </div>
 
-                            <div class="input-group">
-                                <label>البريد الإلكتروني</label>
-                                <input type="email" placeholder="Email Address">
-                            </div>
+    <div class="input-group">
+        <label>البريد الإلكتروني</label>
+        <!-- أضفنا name="email" -->
+        <input type="email" name="email" placeholder="Email Address" required>
+    </div>
 
-                            <div class="input-group">
-                                <label>الرسالة</label>
-                                <textarea rows="4" placeholder="Message....."></textarea>
-                            </div>
+    <div class="input-group">
+        <label>الرسالة</label>
+        <!-- أضفنا name="message" -->
+        <textarea name="message" rows="4" placeholder="Message....." required></textarea>
+    </div>
 
-                            <button type="submit" class="submit-btn">إرسال المعلومات</button>
-                        </form>
+    <button type="submit" class="submit-btn">إرسال المعلومات</button>
+</form>
+
                     </div>
 
                     <!-- الجانب الأيسر: رسالة التواصل -->

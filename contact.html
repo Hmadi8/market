@@ -26,28 +26,32 @@
 
                 <div class="card-grid">
                     <div class="form-side">
-                <form action="https://formsubmit.co/ahhbanking28@gmail.com" method="POST">
+               <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="32728d5d-d2bc-469a-b59b-9ea8c6765e6f">
+    
+    <!-- عشان يرسل الإيميل لبريدك -->
+    <input type="hidden" name="to_email" value="ahhbanking28@gmail.com">
+    
+    <!-- حماية من السبام -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
     <div class="input-group">
         <label>الاسم الكامل</label>
-        <!-- أضفنا name="name" -->
         <input type="text" name="name" placeholder="Full Name" required>
     </div>
 
     <div class="input-group">
         <label>رقم الهاتف / الواتساب</label>
-        <!-- أضفنا name="phone" -->
         <input type="tel" name="phone" placeholder="WhatsApp Number" required>
     </div>
 
     <div class="input-group">
         <label>البريد الإلكتروني</label>
-        <!-- أضفنا name="email" -->
         <input type="email" name="email" placeholder="Email Address" required>
     </div>
 
     <div class="input-group">
         <label>الرسالة</label>
-        <!-- أضفنا name="message" -->
         <textarea name="message" rows="4" placeholder="Message....." required></textarea>
     </div>
 
